@@ -152,6 +152,7 @@ body{
     display:flex;
     align-items: center;
     margin: 4px;
+    border-radius: 0.4rem;
 }
 .icon-modify{
     padding: 0 8px;
@@ -196,11 +197,11 @@ body{
     border-bottom-right-radius: 15px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
-    animation: slideIn 1s;
+    animation: slideIn 0.5s;
     z-index: 13;
 }
 .sing-up-js .content::before{
-    animation: slideOut 1s;
+    animation: slideOut 0.5s;
     z-index: 13;
 }
 
